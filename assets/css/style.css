@@ -12,14 +12,44 @@ body {
     color: #ffde59;
 }
 
+/******************************************Header*/
+
 .logo {
     background: url(../images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 320px;
+    height: 360px;
+    width: 360px;
     background-position: center;
 }
 
 .main-header {
     text-align: center;
+}
+
+/******************************************Navigation*/
+
+.menu-item {
+    height: 120px;
+}
+
+.nav-coursework {
+    background-color: #ffde59;
+    color: #8a2be2;
+    border-color: #ffffff;
+    border: 1px solid;
+}
+
+.nav-hackathon {
+    background-color: #8a2be2;
+    color: #ffde59;
+    border-color: #ffffff;
+    border: 1px solid;
+}
+
+.nav-project {
+    background-color: #ffffff;
+    color: #8a2be2;
+    border-color: #ffde59;
+    border: 1px solid;
 }
