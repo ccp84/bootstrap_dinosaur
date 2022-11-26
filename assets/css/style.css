@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Cairo', sans-serif;
+    background-color: #ffde59;
+    color: #8a2be2;
 }
 
 .title {
@@ -10,8 +12,14 @@ body {
 
 .logo {
     background: url(../images/logo.png);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 320px;
+    background-position: center;
+}
+
+.main-header {
+    text-align: center;
+    background-color: #8a2be2;
+    color: #ffde59;
 }
