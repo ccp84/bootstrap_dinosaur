@@ -8,6 +8,8 @@ body {
 
 .title {
     font-family: 'Cairo Play', cursive;
+    background-color: #8a2be2;
+    color: #ffde59;
 }
 
 .logo {
@@ -20,6 +22,4 @@ body {
 
 .main-header {
     text-align: center;
-    background-color: #8a2be2;
-    color: #ffde59;
 }
