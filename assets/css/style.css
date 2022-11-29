@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Cairo+Play&display=swap');
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Cairo', sans-serif;
     background-color: #ffde59;
@@ -15,12 +19,11 @@ body {
 /******************************************Header*/
 
 .logo {
-    background: url(../images/logo.png);
+    background: url(../images/cosmicdinosaur.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 360px;
-    width: 360px;
     background-position: center;
+    min-height: 120px;
 }
 
 .main-header {
@@ -28,10 +31,6 @@ body {
 }
 
 /******************************************Navigation*/
-
-.menu-item {
-    height: 120px;
-}
 
 .nav-coursework {
     background-color: #ffde59;
@@ -60,4 +59,20 @@ footer {
     font-family: 'Cairo Play', cursive;
     background-color: #8a2be2;
     color: #ffde59;
+    padding: 10px;
 }
+
+footer a {
+    color: #ffde59;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+  }
