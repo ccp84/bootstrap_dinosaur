@@ -53,3 +53,11 @@ body {
     border-color: #ffde59;
     border: 1px solid;
 }
+
+/******************************************Footer*/
+
+footer {
+    font-family: 'Cairo Play', cursive;
+    background-color: #8a2be2;
+    color: #ffde59;
+}
