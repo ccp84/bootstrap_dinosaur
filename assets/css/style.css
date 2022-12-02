@@ -30,6 +30,10 @@ body {
     text-align: center;
 }
 
+header {
+    margin-bottom: 5px;
+}
+
 /******************************************Navigation*/
 
 .nav-coursework {
@@ -75,6 +79,34 @@ body {
     padding: 5px;
     min-height: 120px;
     margin: 0;
+}
+
+.timeline-item {
+    border-left: solid 1px;
+    padding: 5px;
+    position: relative;
+}
+
+.timeline-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item::before {
+    content: attr(data-dates);
+    display: block;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    display: block;
+    content: '';
+    background-color: #8a2be2;
+    position: absolute;
+    top: 2.4em;
+    left: -6px;
 }
 
 /******************************************Footer*/
