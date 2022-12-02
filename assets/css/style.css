@@ -58,17 +58,23 @@ body {
 .white-box {
     background-color: #ffffff;
     padding: 5px;
+    min-height: 120px;
+    margin: 0;
 }
 
 .purple-box {
     background-color: #8a2be2;
     color: #ffde59;
     padding: 5px;
+    min-height: 120px;
+    margin: 0;
 }
 
 .yellow-box {
     background-color: #ffde59;
     padding: 5px;
+    min-height: 120px;
+    margin: 0;
 }
 
 /******************************************Footer*/
