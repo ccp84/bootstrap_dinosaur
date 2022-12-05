@@ -43,6 +43,15 @@ header {
     border: 1px solid;
 }
 
+.nav-coursework a {
+    color: #8a2be2;
+    text-decoration: none;
+}
+
+.nav-coursework a:hover{
+    color: #ffffff;
+}
+
 .nav-hackathon {
     background-color: #8a2be2;
     color: #ffde59;
@@ -50,11 +59,33 @@ header {
     border: 1px solid;
 }
 
+.nav-hackathon a {
+    color: #ffde59;
+    text-decoration: none;
+}
+
+.nav-hackathon a:hover {
+    color: #ffffff;
+}
+
 .nav-project {
     background-color: #ffffff;
     color: #8a2be2;
     border-color: #ffde59;
     border: 1px solid;
+}
+
+.nav-project a {
+    color: #8a2be2;
+    text-decoration: none;
+}
+
+.nav-project a:hover {
+    color: #ffde59;
+}
+
+.active {
+    text-transform: uppercase;
 }
 
 /******************************************Content*/
