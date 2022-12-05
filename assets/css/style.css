@@ -150,6 +150,16 @@ header {
     color: #ffde59;
 }
 
+.projects {
+    border-style: dotted;
+    border-color: #8a2be2;
+    color: #8a2be2;
+}
+
+.hackathon a {
+    color: #8a2be2;
+}
+
 /******************************************Footer*/
 
 footer {
