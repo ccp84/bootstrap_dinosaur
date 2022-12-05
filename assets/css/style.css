@@ -41,15 +41,12 @@ header {
     color: #8a2be2;
     border-color: #ffffff;
     border: 1px solid;
-}
-
-.nav-coursework a {
-    color: #8a2be2;
     text-decoration: none;
 }
 
-.nav-coursework a:hover{
-    color: #ffffff;
+.nav-coursework:hover{
+    background-color: #8a2be2;
+    color: #ffde59;
 }
 
 .nav-hackathon {
@@ -57,15 +54,12 @@ header {
     color: #ffde59;
     border-color: #ffffff;
     border: 1px solid;
-}
-
-.nav-hackathon a {
-    color: #ffde59;
     text-decoration: none;
 }
 
-.nav-hackathon a:hover {
-    color: #ffffff;
+.nav-hackathon:hover {
+    background-color: #ffde59;
+    color: #8a2be2;
 }
 
 .nav-project {
@@ -73,19 +67,16 @@ header {
     color: #8a2be2;
     border-color: #ffde59;
     border: 1px solid;
-}
-
-.nav-project a {
-    color: #8a2be2;
     text-decoration: none;
 }
 
 .nav-project a:hover {
-    color: #ffde59;
+    background-color: #8a2be2;
+    color: #ffffff;
 }
 
 .active {
-    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 /******************************************Content*/
