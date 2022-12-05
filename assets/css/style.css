@@ -136,6 +136,22 @@ header {
     border-color: #8a2be2;
 }
 
+.coursework a {
+    color: #8a2be2;
+    text-decoration: none;
+}
+
+.hackathon {
+    border-style: dotted;
+    border-color: #ffde59;
+    color: #ffde59;
+}
+
+.hackathon a {
+    color: #ffde59;
+    text-decoration: none;
+}
+
 /******************************************Footer*/
 
 footer {
