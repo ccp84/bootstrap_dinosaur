@@ -140,6 +140,11 @@ header {
     left: -6px;
 }
 
+.coursework {
+    border-style: dotted;
+    border-color: #8a2be2;
+}
+
 /******************************************Footer*/
 
 footer {
